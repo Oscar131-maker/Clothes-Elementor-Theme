@@ -1,14 +1,14 @@
-@import url('/css/bootstrap.min.css');
-@import url('/css/footer.css');
-@import url('/css/general.css');
-@import url('/css/img-header.css');
-@import url('/css/nav.css');
-@import url('/css/home.css');
-@import url('/css/woocommerce.css');
-@import url('/css/search.css');
-@import url('/css/page.css');
-@import url('/css/single.css');
-@import url('/css/sidebar.css');
+@import url('css/bootstrap.min.css');
+@import url('css/footer.css');
+@import url('css/general.css');
+@import url('css/img-header.css');
+@import url('css/nav.css');
+@import url('css/home.css');
+@import url('css/woocommerce.css');
+@import url('css/search.css');
+@import url('css/page.css');
+@import url('css/single.css');
+@import url('css/sidebar.css');
 
 /** Swiper Slides **/
 @import url('https://unpkg.com/swiper/css/swiper.css');
