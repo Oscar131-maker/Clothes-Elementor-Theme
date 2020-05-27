@@ -1,0 +1,11 @@
+.sidebar-content{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width:991px) {
+   .sidebar-principal-content{width: 90%; margin: auto;}
+   .sidebar-content{padding-left: 0px;}
+}
+
+

@@ -1,0 +1,67 @@
+.searchform-menu-content{
+    position:fixed;
+    top: -100%;
+    left: 0;
+    background-color: var(--white);
+    width: 100%;
+    height: 200px;
+    z-index: 9999;
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+.searchform-menu-content label{font-size: 40px;}
+.searchform-menu-content form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.searchform-menu-content .form-group{width: 60%;}
+.searchform-menu-content input{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75); 
+    padding: 0px 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.searchform-menu-content form > i{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    color: var(--black);
+    transition: 250ms;
+}
+.searchform-menu-content form > i:hover{color: var(--blackHover);}
+
+/************************************* SearchForm Page **********************************************/
+.search-form-results{width: 100%; margin-top: 30px;}
+.search-form-results .form-group{width: 100%; display: flex;}
+.search-form-results .form-group .form-control{
+    height: 40px;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px -8px rgba(0,0,0,0.75); 
+    padding: 0px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+

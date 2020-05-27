@@ -1,0 +1,78 @@
+.index-default{
+    width: 100%;
+}
+.post-principal-content{
+    width: 90%;
+    margin:100px auto;
+}
+.latest-posts hr{
+    background-color: var(--black);
+    height: 1px;
+}
+.card{
+    margin-top: 40px;
+    -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+}
+.card .img-card{overflow: hidden;}
+.card .img-card img{transition: 250ms;}
+.card .img-card img:hover{transform: scale(1.5);}
+.card .card-body .card-category{
+    position: absolute;
+    width: 100%;
+    transform: translateY(-35px);
+}
+.card .card-body .card-category a{
+    background-color: var(--black);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius:20px;
+    transition: 250ms;
+}
+.card .card-body .card-category a:hover{
+    background-color: var(--blackHover2);
+}
+.card .card-body a{text-decoration: none;}
+.card .card-body a > h3{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 28px;
+}
+.card .card-body .info-card{margin-top: 20px;}
+.card .card-body .info-card .author-name{
+   font-size: 17px;
+   font-weight: 500;
+   color:#707073;
+}
+.card .card-body .info-card .author-name::after{
+    content: 'o';
+    margin:0px 10px;
+    font-weight: 300;
+}
+.card .card-body .info-card .date-card{
+    font-size: 17px;
+   font-weight: 500;
+   color:#707073;
+}
+
+/** Pagination Content **/
+.pagination-content{margin-top: 80px;}
+.page-link{
+    color:var(--black);
+    transition: 300ms;
+    font-weight: 500;
+}
+.page-link:hover{
+   background-color: var(--blackHover) !important;
+   color: #eaeaea;
+}
+.page-item.active .page-link{
+    background-color:var(--black) !important;
+    border-color:#dee2e6 !important;
+}
+
+
+

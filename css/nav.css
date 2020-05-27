@@ -1,0 +1,92 @@
+#header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--white);
+    z-index: 999;
+}
+.menu{
+    width: 95%;
+    height: 60px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-menu{
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn-menu i{font-size: 25px; margin-right: 10px;}
+.menu .logo-box .sitle-title{font-weight: 400;}
+.menu .logo-box .sitle-title a{
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--black);
+    transition: 250ms;
+}
+.menu .logo-box .custom-logo{
+    height: 50px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+.menu .list-container{
+    position: fixed;
+    left: 0%;
+    top: -100%;
+    width:100%;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+    z-index: 999;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+}
+.menu .list-container .lists{margin-top:50px;}
+.menu .list-container .lists li{list-style: none; padding:10px 0px;}
+.menu .list-container .lists li a{
+    color: var(--white);
+    font-size: 40px;
+    text-decoration: none;
+}
+.dropdown-item{
+    font-size: 30px !important;
+    color: var(--black) !important;
+    padding:10px 20px;
+}
+.menu .list-container .lists li a:hover{color: var(--blackHover);}
+.menu .menu-icons ul{display: flex;}
+.menu .menu-icons ul li{list-style: none; margin-top: 16px;}
+.menu .menu-icons ul li i{
+    font-size: 18px;
+    color: var(--black);
+    transition: 250ms;
+    cursor: pointer;
+    margin: 0px 8px;
+}
+.menu .menu-icons ul li i:hover{color: var(--blackHover);}
+.nav-box-shadow{
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and (max-width:461px) {
+   .btn-menu{font-size: 0px;}
+   .menu-icons{
+       position: fixed;;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       height: 50px;
+       background-color: var(--white);
+       display: flex;
+       justify-content: center;
+   }
+   .menu-icons li i{margin:0px 35px;}
+   .menu .list-container .lists li a{font-size:30px;}
+   .dropdown-item{font-size: 20px !important;}
+}
+
